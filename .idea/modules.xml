@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chenxin-security-app/chenxin-security-app.iml" filepath="$PROJECT_DIR$/chenxin-security-app/chenxin-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxin-security-browser/chenxin-security-browser.iml" filepath="$PROJECT_DIR$/chenxin-security-browser/chenxin-security-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxin-security-core/chenxin-security-core.iml" filepath="$PROJECT_DIR$/chenxin-security-core/chenxin-security-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxin-security-demo/chenxin-security-demo.iml" filepath="$PROJECT_DIR$/chenxin-security-demo/chenxin-security-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lichenxin-security.iml" filepath="$PROJECT_DIR$/lichenxin-security.iml" />
+    </modules>
+  </component>
+</project>
