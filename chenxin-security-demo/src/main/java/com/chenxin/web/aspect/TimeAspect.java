@@ -34,7 +34,8 @@ public class TimeAspect {
     }*/
 
     //切入点
-    @Around("execution(* com.chenxin.web.controller.UserController.*(..))")
+    //@Around("execution(* com.chenxin.web.controller.UserController.*(..))")
+    @Around("execution(* com.chenxin.web.controller.UserController.*(..)) || execution(* com.chenxin.web.async.AsyncController.*(..))")
     public Object handleControllerMethod(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("切入点插入成功！！！");
         long start = new Date().getTime();
