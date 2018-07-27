@@ -25,7 +25,7 @@ public class UserController {
 
     @GetMapping(value = "/user")
     @ApiOperation(value = "查询用户")
-    public List<User> query(@RequestParam String username, Pageable pageable) {
+    public List<User> query(@RequestParam String username) {
         List<User> list = new ArrayList<>();
         User user = new User();
         list.add(user);
@@ -61,6 +61,11 @@ public class UserController {
             });
         }
         return user;
+    }
+
+    @DeleteMapping(value = "/user/{id}")
+    public User delete(){
+        return null;
     }
 
 
